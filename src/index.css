@@ -1,0 +1,271 @@
+:root {
+  --PRIMARY: rgb(37, 65, 81);
+  --TEXT-HIGHLIGHT: #E39E95;
+}
+
+body {
+  background: #f5f7f6;
+}
+
+header h1 {
+  text-align: left;
+  color: white;
+  position: absolute;
+  top: 10px;
+  left: 125px;
+}
+
+.titleLink {
+  text-decoration: none;
+  color: white;
+}
+
+header {
+  background: var(--PRIMARY);
+  height: 100px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  vertical-align: center;
+}
+
+.heading img {
+  height: 100px;
+  margin-left: 10px;
+}
+
+.contactSheet {
+  display: block;
+  width: 25%;
+  margin: auto;
+}
+
+.contactSheet input, textarea {
+  width: 100%;
+}
+
+.contactSheet p {
+  text-align: left;
+}
+
+.navLink:last-child {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  background-color: gold;
+  padding: 0.8rem 1.4rem;
+  text-align: center;
+  align-content: center;
+  border: 1px solid goldenrod;
+  border-radius: 15px;
+  transition: color 0.4s ease 0s;
+}
+
+.headerNav {
+  font-size: 16px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.navLink {
+  text-decoration: none;
+  color: white;
+  transition: color 0.4s ease 0s;
+}
+
+.navLink:hover {
+  color: var(--TEXT-HIGHLIGHT);
+  transition: color 0.4s ease 0s;
+}
+
+.donateLink:hover {
+  color: white;
+  transition: color 0.4s ease 0s;
+}
+
+.aboutDiv {
+  text-align: center;
+  max-width: 50%;
+  margin: 90px auto;
+  padding: 40px 50px;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+}
+
+.helpDiv {
+  text-align: center;
+  max-width: 900px;
+  margin: 90px auto;
+  padding: 40px 50px;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+}
+
+ul {
+  margin: auto;
+  text-align: left;
+  list-style-type: circle;
+  list-style-position: inside;
+  padding-left: 0;
+}
+
+.listDiv {
+  text-align: left;
+  width: 60%;
+  margin: auto;
+}
+
+.stockList {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-top: 10px;
+  width: 85%;
+}
+
+.listItems {
+  width: 60%;
+  text-align: left;
+  margin-left: 20px;
+
+}
+
+.expectDiv {
+  max-width: 900px;
+  margin: 90px auto;
+  padding: 40px 50px;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+}
+
+.logoDiv {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  max-width: 1200px;
+  margin: 3em auto;
+  padding: 0 2rem;
+}
+
+.logoCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  border-radius: 15px;
+  background: white;
+  border: 1px solid #e5e7eb;
+  transition: all .2s ease;
+  border-left: 5px solid var(--PRIMARY);
+}
+
+.logoCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.logoCard img {
+  max-width: 200px;
+  max-height: 80px;
+  width: 100%;
+  object-fit: contain;
+}
+
+.homeDiv {
+  text-align: center;
+  max-width: 900px;
+  margin: 90px auto;
+  padding: 40px 50px;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+}
+
+.infoDiv {
+  flex: 1;
+  text-align: left;
+}
+
+.mapDiv {
+  flex: 1;
+}
+
+.locateDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.infoCard {
+  background: #f8faf9;
+  border-left: 5px solid var(--PRIMARY);
+  padding: 20px;
+  margin: 25px 0;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.expectDiv h1 {
+  text-align: center;
+}
+
+.itemCategories {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.itemCategory {
+  background: #f7f7f7;
+  border-left: 4px solid var(--PRIMARY);
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.itemCategory h3 {
+  margin-top: 0;
+}
+
+.hoursCard {
+  background: #f8faf9;
+  border-left: 5px solid var(--PRIMARY);
+  padding: 20px;
+  width: 50%;
+  margin: auto;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.hoursCard h3 {
+  text-align: center;
+}
+
+.hourRow {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.hourDiv span:first-child{
+  text-align: left;
+}
+
+.hourDiv span:last-child {
+  text-align: right;
+}
