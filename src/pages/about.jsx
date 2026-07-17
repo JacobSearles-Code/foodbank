@@ -1,4 +1,5 @@
 import Hours from "../components/hours.jsx"
+import GroupPhoto from "../assets/data/FoodbankGroup.avif"
 
 const About = () => {
 
@@ -6,20 +7,14 @@ const About = () => {
         <div className="aboutDiv">
             <title>About Us</title>
             <h1>About Us</h1>
-            <p>
-                Established in 1987 by Audrey Jackson and the Gananoque Ministerial Committee(a group of Gananoque
-                religious groups) and some dedicated volunteers. The Gananoque and Area Food Bank operates on the
-                premise that in a world where we have so much, no one should go hungry.<br/><br/>
-                We are an emergency community service providing food to our community as needed and as
-                available.<br/><br/>
-                We are a registered non-profit charitable organization governed by a volunteer Board of Directors who
-                are assisted by a group of committed volunteers. We are a non-denominational, non-political organization
-                sustained solely by private donations and we do not receive any government funding.
-            </p>
             <div className="hoursCard">
                 <h3>Hours of Operation</h3>
                 { /* Hour Div goes here */ }
                 <Hours />
+            </div>
+            <div className="photoCard">
+                <h1>Gananoque Food Bank Volunteers</h1>
+                <img className="groupPhoto" src={GroupPhoto} />
             </div>
             <div className="locateDiv">
                 <div className="mapDiv">

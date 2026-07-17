@@ -4,7 +4,8 @@
 }
 
 body {
-  background: #f5f7f6;
+  font-family: "Calisto MT", "Bookman Old Style", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif; font-style: normal; font-variant: normal; line-height: 26.4px;
+  background: #B7E5DC;
 }
 
 header h1 {
@@ -268,4 +269,17 @@ ul {
 
 .hourDiv span:last-child {
   text-align: right;
+}
+
+.photoCard {
+  margin-top: 50px;
+  max-width: 100%;
+}
+
+.groupPhoto {
+  max-width: 100%;
+}
+
+.linkImg {
+  scale: 50%;
 }

@@ -1,10 +1,14 @@
+import Waterfront_Concert_Schedule from "../assets/data/Waterfront_Concerts_Schedule.pdf";
+
 const Help = () => {
 
     return (
         <div className="helpDiv">
             <title>How to Help</title>
             <h1>How to Help</h1>
-            <p>The Gananoque Food Bank is grateful for our very generous community.  At this time we are in need of Food Pantry items.  Please see the links below for more information.</p>
+            <p>The Gananoque Food Bank is grateful for our very generous community.  At this time we are in need of Food Pantry items.  Please see the sections below for more information.</p>
+            <h3>We are accepting food and monetary donations at the Waterfront Concert Series</h3>
+            <a href={Waterfront_Concert_Schedule} target="_blank">Click here to view the concert schedule!</a>
             <div className="infoCard">
             <h2>Food Drives</h2>
             <p>The Gananoque and  Area Food Bank is often in need of pantry items for our clients.  One of the ways we are able to provide these necessary items is through Volunteer Food Drives.<br/>
